@@ -1,0 +1,31 @@
+:root{
+  --yellow: rgb(250, 206, 8);
+  --orange: #fca61f;
+  --black: #242424;
+  --gray: var(--gray);
+  --boxShadow : 0px 19px 60px rgb(0 0 0 /8%);
+  --orangeCard: rgba(252,166,31,0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0 ,0 .0.08);
+
+}
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: #242424;
+}
+
+.button{
+  border-radius:43px ;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 27px 15px 23px;
+  background: linear-gradient(180deg, rgb(236, 236, 9),rgb(218, 50, 101));
+  box-shadow: 1px 1px 1px 1px;
+}
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: #fca61f;
+  border: 1px solid var(--orange)
+}
