@@ -1,0 +1,39 @@
+.Services{
+    height: auto;
+    padding: 30rem 1rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.awesome > :nth-child(1){
+    font-size: 2.5rem;
+    color: rgb(7, 12, 12);
+    font-weight: bold;
+}
+.awesome > :nth-child(2){
+    font-size: 2.4rem;
+    color: brown;
+    font-weight: bold;
+}
+.awesome > :nth-child(3){
+    font-size: 1.5rem;
+    color: rgb(226, 86, 184);
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.s-button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}

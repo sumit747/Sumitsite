@@ -1,7 +1,7 @@
 import React from 'react'
 import './Floating.css'
 
-const Floating = ({txt1,txt2,txt3,txt4}) => {
+const Floating = ({txt1,txt2}) => {
   return (
     <div className="Floating">
         <span>
@@ -9,11 +9,6 @@ const Floating = ({txt1,txt2,txt3,txt4}) => {
             <br />
             {txt2}
         </span>
-        {/* <span>
-          {txt3}
-          <br/>
-          {txt4}
-        </span> */}
     </div>
   )
 }

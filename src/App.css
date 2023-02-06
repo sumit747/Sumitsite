@@ -9,18 +9,18 @@
 
 }
 .App{
-  padding: 0.5rem 3.5rem;
-  overflow: hidden;
-  color: #242424;
+  padding: 1.5rem 3.3rem;
+  /* overflow: hidden; */
+  color: #111b15;
 }
 
 .button{
   border-radius:43px ;
   border: none;
-  color: white;
+  color: rgb(243, 236, 236);
   font-size: 16px;
   padding: 11px 27px 15px 23px;
-  background: linear-gradient(180deg, rgb(236, 236, 9),rgb(218, 50, 101));
+  background: linear-gradient(180deg, rgb(240, 240, 59),rgb(218, 50, 101));
   box-shadow: 1px 1px 1px 1px;
 }
 .button:hover{

@@ -11,8 +11,9 @@ const Intro = () => {
                 <div className="i-name">
                     <span>Hy! I am </span>
                     <span> Sumit Chaudhary</span>
-                    <span> Frontend developer and
-                        my Skill is Reactjs,
+                    <span> Frontend Developer </span>
+                    <span>
+                        My Skills = Reactjs,
                         JavaScript, HTML5, CSS,
                         Git and GitHub</span>
                 </div>
@@ -26,25 +27,27 @@ const Intro = () => {
             </div>
 
             <div className="i-right">
-                <div style={{ top: '-4%', left: '22%' }}>
+                <div >
                     <img src={sumit} alt="" width={400} />
                 </div>
-                <div>
+                <div style={{ top: '-6%', left: '65%' }} >
                     <Floating txt1='Web' txt2='Developer' />
                 </div>
-                {/* <div>
-                    <Floating txt3='Best Design' txt4='Award' />
-                </div> */}
-                {/* blur divs */}
-                <div className='blur' style={{ background: "rgb(237 219 152)" }}></div>
+                <div style={{ top: '28.8rem', left: "0%" }}>
+                    <Floating txt1='Best Design' txt2='Award' />
+                </div>
+                {/* <blur div> */}
+
                 <div className='blur'
-                style={{
-                    background: '#c1f5ff',
-                    top: '17rem',
-                    width: '21rem',
-                    height: '22px',
-                    left: '-9'
-                }}></div>
+                    style={{ background: "rgb(237 219 152)" }}></div>
+                <div className='blur'
+                    style={{
+                        background: '#C1F5FF',
+                        top: '27rem',
+                        width: '25rem',
+                        height: '30px',
+                        left: '-9rem'
+                    }}></div>
             </div>
         </div>
     )

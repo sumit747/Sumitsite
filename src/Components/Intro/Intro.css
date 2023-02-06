@@ -24,16 +24,23 @@
     color: var(--orange);
     font-weight: bold;
     font-size: 3rem;
+
 }
 .i-name>:nth-child(3){
     color: var(black);
     font-weight: bold;
-    font-size: rem;
+    font-size: 2rem;
     margin-top: 10px;
+}
+.i-name>:nth-child(4){
+    color: rgb(233, 35, 117);
+    font-size: bold;
+    font-size: 1rem;
 }
 .i-button {
     width: 7rem ;
     height: 3rem;
+    margin-top: 10px;
 }
 
 .i-icons{
@@ -48,8 +55,6 @@
     cursor: pointer;
 }
 
-
-
 .i-right{
     flex: 1;
     position: relative;
@@ -63,9 +68,9 @@
     width: 22rem;
     height: 14rem;
     border-radius: 50%;
-    background: rgb(143, 54, 54);
+    background: rgb(59, 43, 201);
     z-index: -9;
-    top: -10%;
+    top: -18%;
     left: 56%;
     filter: blur(72px);
 }

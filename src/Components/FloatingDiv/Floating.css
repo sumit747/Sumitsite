@@ -1,16 +1,12 @@
 .Floating{
     justify-content: space-around;
     display: flex;
-    background: rgb(135, 129, 211);
+    background: rgb(143, 140, 192);
     box-shadow: var(--boxshadow);
     border-radius: 17px;
     align-items: center;
     padding: 2px 20px 0px 5px;
     height: 4.5rem;
     top: 20px;
-}
-.Floating>img{
-    transform: scale(0,4);
-    border-left: 20%;
-
+    text-align: center;
 }
