@@ -58,6 +58,7 @@
 .i-right{
     flex: 1;
     position: relative;
+    border-image: space;
 }
 .i-right>*{
     position: absolute;
