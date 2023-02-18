@@ -1,15 +1,17 @@
 .contact-form{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 50vh;
-    margin-top: 4rem;
+    height: 60vh;
+    margin-top: 2rem;
 }
 
 .c-right{
     display: flex;
+    align-items: center;
     justify-content: center;
     position: relative;
     flex: 1;
+    left: 5%;
 }
 .c-right>form{
     display: flex;

@@ -1,7 +1,7 @@
 .card{
-    width: 10rem;
-    height: 12rem;
-    position: absolute;
+    height: auto;
+    width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -11,7 +11,7 @@
     border: 3px solid var(--orangeCard);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
-    padding: 0px 25px 2rem 26px;
+    padding: 4px 25px 2rem 16px;
     min-block-size: 2px;
     vertical-align: middle;
 }

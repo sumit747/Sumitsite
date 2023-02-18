@@ -14,23 +14,22 @@ const Services = () => {
           <a href={Resume} download>
           <button className="button s-button">Resume Here</button>
           </a>
-          
       </div>
       {/* right side */}
       <div className="cards">
-          <div style={{left: '25rem'}} className='card'>
+          <div style={{top: '2rem', left:'100%'}} className='card'>
             <Card
             Heading ={'Design'}
             details = {"Bootstrap , Data "}
             />
           </div>
-          <div style={{top: "12rem" , left: "5rem"}}>
+          <div style={{top: "12rem", left: '105%' }}>
             <Card 
             Heading ={"Fornt-End-Developer"}
             details={"HTML5,CSS3,Javascript, Reactjs,Bootstrap"}
             />
           </div>
-          <div style={{top: '24rem', left: "25rem"}}>
+          <div style={{top: '20rem', left: '110%'}}>
             <Card
             Heading ={"Skills"}
             details= {"Excel,MS Office, MS word"}
@@ -40,5 +39,4 @@ const Services = () => {
     </div>
   )
 }
-
 export default Services

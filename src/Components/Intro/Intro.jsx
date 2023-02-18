@@ -27,13 +27,13 @@ const Intro = () => {
             </div>
 
             <div className="i-right">
-                <div >
-                    <img src={sumit} alt="" width={400} />
+                <div style={{top:'5rem', left:"15%"}}>
+                    <img src={sumit} alt="profile" className='responsive' />
                 </div>
-                <div style={{ top: '-6%', left: '65%' }} >
+                <div style={{ height:'auto', left: '1%' }} >
                     <Floating txt1='Web' txt2='Developer' />
                 </div>
-                <div style={{ top: '28.8rem', left: "0%" }}>
+                <div style={{ top: '31rem', left: "1%" }}>
                     <Floating txt1='Best Design' txt2='Award' />
                 </div>
                 {/* <blur div> */}

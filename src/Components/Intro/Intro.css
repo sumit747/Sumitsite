@@ -27,7 +27,7 @@
 
 }
 .i-name>:nth-child(3){
-    color: var(black);
+    color: var(rgb(225, 81, 81));
     font-weight: bold;
     font-size: 2rem;
     margin-top: 10px;
@@ -59,15 +59,27 @@
     flex: 1;
     position: relative;
     border-image: space;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
 }
 .i-right>*{
     position: absolute;
-    z-index: 1;
+    height: auto;
+    
 }
+.responsive{
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+    border: 12%;  
+    max-width: 100%;
+}
+
 .blur{
     position: absolute;
     width: 22rem;
-    height: 14rem;
+    height: auto;
     border-radius: 50%;
     background: rgb(59, 43, 201);
     z-index: -9;

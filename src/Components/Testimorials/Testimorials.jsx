@@ -24,9 +24,9 @@ const Testimorials = () => {
     return (
         <div className="t-wrapper">
             <div className="t-heading">
-                <span>Clients Work always</span>
-                <span>Exceptional Work</span>
-                <span>My Work and Aproved</span>
+                <span>Clients Work always || </span>
+                <span>Exceptional Work </span>
+                <span>|| My Work and Aproved</span>
                 <div className="blur t-blur1" style={{ background: "purple" }}></div>
                 <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
                 <Swiper
