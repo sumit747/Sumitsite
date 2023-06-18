@@ -14,11 +14,12 @@ import { useContext } from 'react';
 function App () {
   const theme =useContext(themeContext)
   const darkMode = theme.state.darkMode;
+  // const lightMode = theme.state.lightMode;
   return (
     <div className='App'
     style={{
-      background : darkMode? 'black' : '',
-      color : darkMode? 'white' : ''
+      background : darkMode ? 'black' : '',
+      color : darkMode ? 'white' : ''
     }}
     >
       <Navbar/>
@@ -27,9 +28,9 @@ function App () {
       <Experience/>
       <Works/>
       <Testimorials/>
-      <Contact/>
-      <Footer />
-    </div>
+      <Contact/> 
+      <Footer />  
+     </div>
   );
 }
 

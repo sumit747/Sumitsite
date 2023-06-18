@@ -13,17 +13,17 @@ const Works = () => {
         <button className="button s-button">Hire Me</button>
       </div>
       {/* Right side */}
-        <div className="w-right">
-          <div className="w-maincircle">
-            <div className="w-secCircle">
-              <img src={Cling} alt="" /> 
-            </div>
+      <div className="w-right">
+        <div className="w-maincircle">
+          <div className="w-secCircle">
+            <img src={Cling} alt="" />
           </div>
-          {/* background circle */}
-          <div className="w-backCircle blueCircle"></div>
-          <div className="w-backCircle yellowCircle"></div>
         </div>
+        {/* background circle */}
+        <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle yellowCircle"></div>
       </div>
+    </div>
   )
 }
 

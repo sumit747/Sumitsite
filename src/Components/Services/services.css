@@ -1,5 +1,5 @@
 .Services {
-    height: 18vh;
+    height: auto;
     padding: 32rem 1rem;
     display: flex;
     flex: 1;
@@ -41,7 +41,7 @@
 
 .AllCard {
     height: auto;
-    width: 100%;
+    width: auto;
     left: 100px;
 }
 

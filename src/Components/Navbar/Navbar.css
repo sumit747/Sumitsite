@@ -1,16 +1,70 @@
+/* .nav{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover,
+#navbar li a.active {
+    color: aqua;
+    font-size: bold;
+}
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: aqua ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.mobile{
+    text-align: right;
+    /* display: flex; */
+/* }
+#mobile i{
+    color: white;
+    text-align: center;
+} */ 
+
+
+
 .n-wrapper{
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    background: rgb(230, 70, 150);
 }
 .n-left{
     flex: 2;
     align-items: center;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
+    font-size: 1.6rem;
 }
 .n-name{
-    font-size: 1.3rem;
+    font-size: auto;
     font-weight: bold;
 }
 .n-right{
@@ -19,17 +73,15 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
+    font-weight: auto;
+    font-size: 1.6rem;
 }
 .n-list>ul{
     display: flex;
-    gap: 2rem;
+    gap: 1.6rem;
     margin-right: 4rem;
 }
 .n-list > ul >li:hover{
     cursor: pointer;
     color: var(--orange) ;
-}
-.n-button{
-    flex: 2px;
 }
